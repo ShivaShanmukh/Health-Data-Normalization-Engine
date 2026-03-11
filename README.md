@@ -1,5 +1,4 @@
 # Health-Data-Normalization-Engine
-Transform fragmented health data from wearables, labs and sensors into a unified schema developers and AI systems can build on.
 A small frontend prototype demonstrating how fragmented health data can be transformed into a unified schema developers and AI systems can build on.
 
 This project simulates a simplified version of the type of data transformation pipelines used in modern health platforms.
