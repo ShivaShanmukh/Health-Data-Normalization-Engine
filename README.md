@@ -11,7 +11,8 @@ Inspired by Terra’s mission to unify fragmented health data into a consistent 
 
 ### Hero & Product Overview
 
-![Hero Section](./screenshots/hero.png)
+![Hero Section]<img width="948" height="474" alt="image" src="https://github.com/user-attachments/assets/e96ce173-0833-44b5-a9c0-bc79570320fc" />
+
 
 ---
 
@@ -19,7 +20,8 @@ Inspired by Terra’s mission to unify fragmented health data into a consistent 
 
 Users can input raw JSON data from health devices, labs, or sensors.
 
-![Raw Data Input](./screenshots/raw-data.png)
+![Raw Data Input]<img width="947" height="467" alt="image" src="https://github.com/user-attachments/assets/e1e7e877-bbf2-4bb6-927a-7ac2d6f3a4a3" />
+
 
 ---
 
@@ -27,7 +29,8 @@ Users can input raw JSON data from health devices, labs, or sensors.
 
 The system transforms vendor-specific data fields into a standardized schema.
 
-![Normalized Data](./screenshots/normalized-data.png)
+![Normalized Data]<img width="947" height="474" alt="image" src="https://github.com/user-attachments/assets/3628f8c5-ed0c-4391-923a-c6e46e918fab" />
+
 
 ---
 
@@ -35,7 +38,8 @@ The system transforms vendor-specific data fields into a standardized schema.
 
 Normalized values can be edited to simulate validation or correction workflows.
 
-![Editable Data](./screenshots/editable.png)
+![Editable Data]<img width="948" height="474" alt="image" src="https://github.com/user-attachments/assets/0c1da02f-b2c1-44be-b00e-812671d8b622" />
+
 
 ---
 
