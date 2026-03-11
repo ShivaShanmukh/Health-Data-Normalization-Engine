@@ -1,68 +1,36 @@
-# Health-Data-Normalization-Engine
-A small frontend prototype demonstrating how fragmented health data can be transformed into a unified schema developers and AI systems can build on.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-This project simulates a simplified version of the type of data transformation pipelines used in modern health platforms.
+## Getting Started
 
-Inspired by Terra’s mission to unify fragmented health data into a consistent schema developers and AI systems can reason over.
+First, run the development server:
 
----
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Demo
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Hero & Product Overview
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-![Hero Section]<img width="948" height="474" alt="image" src="https://github.com/user-attachments/assets/e96ce173-0833-44b5-a9c0-bc79570320fc" />
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Learn More
 
----
+To learn more about Next.js, take a look at the following resources:
 
-### Raw Health Data Input
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Users can input raw JSON data from health devices, labs, or sensors.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-![Raw Data Input]<img width="947" height="467" alt="image" src="https://github.com/user-attachments/assets/e1e7e877-bbf2-4bb6-927a-7ac2d6f3a4a3" />
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
----
-
-### Normalized Health Data
-
-The system transforms vendor-specific data fields into a standardized schema.
-
-![Normalized Data]<img width="947" height="474" alt="image" src="https://github.com/user-attachments/assets/3628f8c5-ed0c-4391-923a-c6e46e918fab" />
-
-
----
-
-### Editable Biomarkers
-
-Normalized values can be edited to simulate validation or correction workflows.
-
-![Editable Data]<img width="948" height="474" alt="image" src="https://github.com/user-attachments/assets/0c1da02f-b2c1-44be-b00e-812671d8b622" />
-
-
----
-
-## Features
-
-- Raw health data ingestion via JSON input
-- Data normalization pipeline
-- Standardized biomarker schema
-- Confidence scoring for parsed data
-- Editable normalized values
-- Clean developer-focused UI
-- Responsive layout
-- Modern SaaS-style design
-
----
-
-## Example Transformation
-
-### Raw Input
-
-```json
-{
-  "hb": 12.4,
-  "vit_d": 28,
-  "gluc": 90
-}
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
